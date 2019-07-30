@@ -19,10 +19,7 @@ actions:
         required: true
         in: requestBody
       units:
-        type: enum
-        enum:
-          - metric
-          - imperial
+        type: string
         required: false
         in: requestBody
     output:
