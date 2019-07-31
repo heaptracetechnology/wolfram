@@ -1,6 +1,8 @@
 # _Wolfram_ OMG Microservice
 
 [![Open Microservice Guide](https://img.shields.io/badge/OMG%20Enabled-👍-green.svg?)](https://microservice.guide)
+[![Build Status](https://travis-ci.com/omg-services/wolfram.svg?branch=master)](https://travis-ci.com/omg-services/wolfram)
+[![codecov](https://codecov.io/gh/omg-services/wolfram/branch/master/graph/badge.svg)](https://codecov.io/gh/omg-services/wolfram)
 
 Wolfram is a unique engine for computing answers and providing knowledge. It works by using its vast store of expert-level knowledge and algorithms to automatically answer questions, do analysis and generate reports.
 
