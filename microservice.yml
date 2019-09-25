@@ -2,6 +2,10 @@ omg: 1
 lifecycle:
   startup:
     command: ["python", "/app/app.py"]
+info:
+  version: 1.0.0
+  title: Wolfram
+  description: This is a wolfram service
 actions:
   answer:
     http:
@@ -15,7 +19,7 @@ actions:
         required: true
         in: requestBody
       units:
-        type: enum
+        type: string
         enum:
           - metric
           - imperial
@@ -24,11 +28,6 @@ actions:
     output:
       type: object
       contentType: application/json
-      properties:
-        answer:
-          type: string
-          help: The response from the Wolfram API
-
 environment:
   WOLFRAM_APP_ID:
     type: string
